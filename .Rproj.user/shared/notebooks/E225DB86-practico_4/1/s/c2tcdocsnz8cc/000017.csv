@@ -1,0 +1,4 @@
+"0","wage1 = select(wage1, wage, educ)
+"
+"2","Error in select(wage1, wage, educ) : could not find function ""select""
+"
