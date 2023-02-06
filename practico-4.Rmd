@@ -211,7 +211,7 @@ Como es posible constatar, la estimación de modelos de regresión lineal simple
 
 Como se señaló al inicio del práctico, el método de estimación de **Mínimos Cuadrados Ordinarios (MCO)** (u *OLS* en inglés). Ello indica que la estimación busca optimizar una recta que se ajuste a los datos disminuyendo al máximo la suma de los **residuos** al cuadrado. Los residuos se elevan al cuadrado para sumarlos, lo cual se denomina **Suma de residuos al cuadrado** o $SS_{residual}$. Esto para evitar que residuos positivos y negativos se anulen entre sí.
 
-Ahora ¿qué son los residuos? Estos corresponden a la **diferencia** entre el valor **observado** y el valor **predicho**. Si, por ejemplo, el salario por horas predicho corresponde a 4 mil pesos, y el valor observado corresponde a 3.7 mil pesos por hora, entonces el residuo de la estimación para esta observación equivale a .3 mil pesos. 
+Ahora ¿qué son los residuos? Estos corresponden a la **diferencia** entre el valor **predicho** y el valor **observado**. Si, por ejemplo, el salario por horas predicho corresponde a 4 mil pesos, y el valor observado corresponde a 3.7 mil pesos por hora, entonces el residuo de la estimación para esta observación equivale a -.3 mil pesos. 
 
 Considérese la ecuación
 
