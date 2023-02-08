@@ -126,7 +126,7 @@ Es decir: el salario por hora predicho corresponde a la suma del **intercepto de
 
 - $\beta_0$: Corresponde al valor estimado para $\hat{y}$ para alguien con cero años de escolaridad.
 
-- $\beta_1$: Corresponde a la **pendiente** estimada para la función de regresión lineal de $\hat{y}$ sobre $x$. Así, por cada unidad que aumente $x$ (en este caso, por cada año de escolaridad extra), el valor estimado $\hat{y}$ para los salarios por hora aumentará en $\beta_1$.
+- $\beta_1$: Corresponde a la **pendiente** estimada para la función de regresión lineal de $\hat{y}$ sobre $x$. Así, por cada unidad que aumente $x$ (en este caso, por cada año de escolaridad extra), el valor estimado $\hat{y}$ para los salarios por hora aumentará o disminuirá en $\beta_1$.
 
 - $u_{i}$: Corresponde al error en la estimación, generado por la no incorporación en el modelo de variables que estén relacionadas con **wage**. En este caso, incluir variables como el área de actividad económica, la ocupación, la capacidad de liderazgo o resolución de problemas, entre otros, puede disminuir el error causado por la no observación de efectos estadísticamente significativos de estas variables sobre los salarios por hora. 
 
